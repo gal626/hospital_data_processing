@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, TIMESTAMP, BOOLEAN
+from sqlalchemy import create_engine, Column, String, TIMESTAMP, BOOLEAN
 from sqlalchemy.orm import declarative_base, Session
 from constants import DATABASE_HOST, DATABASE_PASSWORD, DATABASE_USER_NAME
 from utils import get_environment_variable
